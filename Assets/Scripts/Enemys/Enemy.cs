@@ -22,10 +22,6 @@ public class Enemy : MonoBehaviour
     {
         playerRigid = GameManager.instance.playerRigid;
     }
-    void OnEnable()
-    {
-    }
-
     void Update()
     {
         if (health <= 0)

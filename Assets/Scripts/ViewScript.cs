@@ -6,6 +6,7 @@ public class ViewScript : MonoBehaviour
 {
     Transform trans;
     public GameObject player;
+    public float plusHeight = 3;
 
     void Awake() {
         trans = GetComponent<Transform>();
@@ -14,6 +15,6 @@ public class ViewScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        trans.position = new Vector3(player.transform.position.x, player.transform.position.y,-10);
+        trans.position = new Vector3(player.transform.position.x, player.transform.position.y + plusHeight, -10);
     }
 }

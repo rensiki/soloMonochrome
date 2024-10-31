@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     float x = 0;
     bool isGround;
     public float moveSpeed = 2f;
-    public float moveMaxSpeed = 3f;
+    public float moveMaxSpeed = 2f;
     public float jumpPower = 5f;
     public float x_maxSpeed = 10f;
     public float y_maxSpeed = 10f;
