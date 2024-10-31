@@ -799,8 +799,8 @@ Transform:
   m_GameObject: {fileID: 145885108}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.6089665, y: 0.9895707, z: 0.6089665}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 0.73075986, y: 0.9895707, z: 0.6089665}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1253938084}
@@ -2627,7 +2627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1748846962}
-  plusHeight: 2
+  plusHeight: 3
 --- !u!1 &545436658
 GameObject:
   m_ObjectHideFlags: 0
@@ -5667,6 +5667,7 @@ GameObject:
   - component: {fileID: 1253938084}
   - component: {fileID: 1253938083}
   - component: {fileID: 1253938082}
+  - component: {fileID: 1253938085}
   m_Layer: 0
   m_Name: SpawnEnemy
   m_TagString: Untagged
@@ -5747,13 +5748,40 @@ Transform:
   m_GameObject: {fileID: 1253938081}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -212, y: -135, z: 0}
-  m_LocalScale: {x: 3.2097, y: 3.2097, z: 3.2097}
+  m_LocalPosition: {x: -205.87, y: -142.49, z: 0}
+  m_LocalScale: {x: 1.9519773, y: 1.9519773, z: 1.9519773}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 145885109}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1253938085
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253938081}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1258764509
 GameObject:
   m_ObjectHideFlags: 0
@@ -8567,7 +8595,7 @@ Transform:
   m_GameObject: {fileID: 1748846962}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -297.6, y: -166.7, z: 0}
+  m_LocalPosition: {x: -221.8, y: -155.2, z: 0}
   m_LocalScale: {x: 0.85, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
